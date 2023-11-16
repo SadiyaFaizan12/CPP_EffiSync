@@ -573,7 +573,7 @@ void MainWindow::fetchWeatherData()
     connect(manager, &QNetworkAccessManager::finished, this, &MainWindow::onWeatherDataReceived);
 
     // Replace "YOUR_API_KEY" with your OpenWeatherMap API key
-    QString apiKey = "c8e2df94491adbde9bb93df1271efea6";
+    QString apiKey = "Put_Your_API_Key";
     QString city = "Noida";
     QString urlStr = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apiKey;
 
